@@ -32,8 +32,6 @@ pip install -r requirements.txt
 python kazxtols.py
 ```
 
-> Ganti `USERNAME_GITHUB_KAMU` dengan username GitHub tempat repo ini di-push.
-
 ### Instalasi Tambahan untuk Check ID Channel & Group WhatsApp
 
 Dua fitur ini (nomor 1 & 2 di daftar bawah) butuh setup tambahan karena ID-nya berbentuk JID internal WhatsApp (`xxx@newsletter` / `xxx@g.us`), yang cuma bisa diambil lewat koneksi WhatsApp Web asli — bukan halaman publik biasa seperti fitur lain. Ini dijalankan lewat companion Node.js kecil bernama **wa-helper**.
