@@ -1,0 +1,19 @@
+{
+  "name": "kazxtols-wa-helper",
+  "version": "1.0.0",
+  "description": "Helper Node.js untuk KazXTols - resolve JID Channel/Group WhatsApp via Baileys, diakses Python lewat local HTTP server.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "login": "node login.js"
+  },
+  "dependencies": {
+    "baileys": "^6.7.9",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
