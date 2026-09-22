@@ -7,7 +7,7 @@ Tools Checker ID & Public Info Lookup — dijalankan di Termux.
 
 ---
 
-## ⚠️ Catatan Penting
+## Catatan Penting
 
 Semua fitur di tools ini **hanya mengambil data publik** yang memang bisa dilihat siapa saja (username availability, nama tampilan, bio, foto profil, follower/subscriber/member count publik, dll), lewat API resmi platform (Roblox, YouTube), halaman publik (Open Graph metadata), atau koneksi WhatsApp Web yang login sendiri (khusus Channel/Group WhatsApp — lihat bagian instalasi di bawah).
 
@@ -21,12 +21,12 @@ Gunakan secara bertanggung jawab dan sesuai Terms of Service masing-masing platf
 
 ---
 
-## 📦 Instalasi (Termux)
+## Instalasi (Termux)
 
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/USERNAME_GITHUB_KAMU/KazXTols.git
+git clone https://github.com/orythor/KazXTols.git
 cd KazXTols
 pip install -r requirements.txt
 python kazxtols.py
@@ -52,7 +52,7 @@ Lalu buka terminal Termux **kedua** (geser dari kiri layar > New Session) buat j
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 ### Check ID
 | # | Fitur | Butuh wa-helper? |
@@ -86,7 +86,7 @@ Lalu buka terminal Termux **kedua** (geser dari kiri layar > New Session) buat j
 
 ---
 
-## 🗂️ Struktur Project
+## Struktur Project
 
 ```
 KazXTols/
@@ -110,7 +110,7 @@ Struktur modular — tiap platform punya file sendiri di `modules/`, jadi gampan
 
 ---
 
-## 🔧 Menambah Platform Baru
+## Menambah Platform Baru
 
 1. Buat file baru di `modules/`, contoh `modules/threads.py`
 2. Import helper: `from modules.helper import safe_get, print_result, ...`
@@ -118,6 +118,6 @@ Struktur modular — tiap platform punya file sendiri di `modules/`, jadi gampan
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Bebas dipakai & dimodifikasi untuk kebutuhan pribadi. Mohon cantumkan credit ke **XioNiV ID** jika di-redistribute.
